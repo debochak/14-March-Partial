@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Person Resume</title>
+    <style>
+        .myclass{
+            margin-left: 200px;
+            margin-right: 200px;
+            padding-left: 40px;
+            padding-right: 40px;
+            position: relative;
+        }
+        .parent{
+            height: 350px;
+            width: initial;
+            background-color:grey;
+            /* margin: 0px; */
+            position: relative;
+        
+        }
+        .childone{
+            height: 1000px;
+            width: 40%;
+            float: left;
+            border: 1px;
+            border-style:solid;
+            border-color: black;
+            padding: 2px;
+            background: white;
+            margin-top: 0px;
+            margin-left: 50px;
+            position: relative;
+            top: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .childtwo{
+            height: 1000px;
+            width: 40%;
+            float: right;
+            border: 1px;
+            border-style:solid;
+            border-color: black;
+            padding: 2px;
+            background: white;
+            margin-top: 0px;
+            /* margin-left: 10 px; */
+            position: relative;
+            top: 40px;
+            /* margin-left: 75px; */
+            margin-right: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .rectangle{
+            width: initial;
+            height: 55px;
+            background-color: rgba(255, 255, 255, 0.692);
+            position: relative;
+            top: 250px;
+        }
+        .curvedrectangle{
+
+            background-color:rgba(255, 196, 0, 0.87);
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 275px;
+            border-radius: 10px;
+            font-size: 50px;
+            padding-top: 20px; padding-bottom: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            opacity: 1;
+            z-index: 10;
+            /* left: 200px */
+        }
+        .img{
+            
+            /* display: inline-block; */
+            margin: auto;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: 40px;
+            left: 400px;
+            border-radius: 75px;
+            
+        }
+        .addressbox{
+            width: initial;
+            height: 35px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 5px;
+            border-bottom: 1px;
+            /* border-style: solid; */
+            border-bottom: solid;
+        }
+        .profile{
+            background-color: aquamarine;
+        }
+        .skills{
+            background-color: rgb(167, 23, 167);
+            width: 175px;
+            font-size: 18px;
+            /* height: 100px; */
+
+        }
+        input[type=range] {
+            width: 60%;
+        }
+    </style>
+</head>
+<body class="myclass">
+    <div class="parent">
+       
+
+        <div class="rectangle">
+        </div>
+        
+        <img src="https://randomuser.me/api/portraits/men/91.jpg" class="img">
+
+        <div class="curvedrectangle">BRIAN DUDEY</div>
+
+        <div class="addressbox">202, Neelkant Residency 2, Sector ABC, London, England - 110025 | Mobile No. 9987699876</div>
+
+
+
+    </div>
+
+    <div class="childone">
+    
+        <div class="profile"> Profile 
+            <p>
+                Innovative optimized solution seeker. Excited to be at teh deployment phase of my new career as a web developer. I am ambitious, adventurous, assiduous, animated and an Iliteration advocate
+
+            </p>
+        </div>
+
+        <div> 
+            <p>Skills</p>
+            <p style="text-align:center">Technical Skills</p>   
+        </div>
+
+        <div class="skills" style="float: left; margin-left: 20px;"> 
+            <p> 
+                JavaScript  
+               
+                <br>
+            
+                CSS 
+                
+                <br>
+                HTML<br>
+                React<br>
+                Redux<br>
+                Mongo<br>
+                Deployment
+            </p>
+        </div>
+
+        <div class="skills" style="float: right; margin-right: 10px;">
+            <p>
+            
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <input type="range" id="vol" name="vol" min="0" max="10"><br>
+            </p>
+
+        </div>
+        <div> 
+            
+            <p style="text-align:center">Additional Skills</p>   
+        </div>   
+    
+
+        <div class="skills" style="float: left; margin-left: 20px;"> 
+            <p> 
+                Project Management  
+            
+                <br>
+            
+                Recruitment 
+                
+                <br>
+                Business Development<br>
+                React<br>
+                Editing<br>
+                Fundraising<br>
+                
+            </p>
+            </div>
+            <div class="skills" style="float: right; margin-right: 10px;">
+                <p>
+                
+                    <input type="range" id="vol" name="vol" min="0" max="10">
+                    <input type="range" id="vol" name="vol" min="0" max="10">
+                    <input type="range" id="vol" name="vol" min="0" max="10">
+                    <input type="range" id="vol" name="vol" min="0" max="10">
+                    <input type="range" id="vol" name="vol" min="0" max="10">
+                    <input type="range" id="vol" name="vol" min="0" max="10"><br>
+                </p>
+            </div>
+
+            <div>
+                <p>Work Experience</p>
+                <p style="float: left;"><b>Event Manager</b></p>
+                <p style="text-align: right;">03/2014-02/2017</p>
+                <p>C3 Presents, Washington DC</p>
+                <br>
+                <p>
+                    <ol>
+                        <li>
+                            Lead and execute all phases of event planning and production spanning committee recruitement, training, vendor relationship and on-site facilitation
+                        </li>
+                        <li>
+                            Brought new business to teh organization throught relentless networking and stewardship which helped the company wing hte bid for the State Deparment Summit on the Middle East and, the companies largest civic event to date, the United State of Women.
+                        </li>
+                        <li>
+                            Exercise fiscal control over budget creation, tracking and reporting. Collaborate with employees at all organizational levels to advance cohesive operations.
+                        </li>
+                    </ol>
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="childtwo">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto magni aliquam voluptate, iusto neque nemo deserunt reiciendis consequatur odit quisquam doloremque quam maiores porro consequuntur voluptatem, vitae eveniet temporibus aperiam.</div>
+    
+    
+</body>
+</html>
